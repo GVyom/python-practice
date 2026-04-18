@@ -12,6 +12,9 @@ if Height >= 120:
     elif Age <= 18:
         Bill = 7 #Price re-assigning - run 1
         print("Youth tickets are $7.")
+    elif Age >= 45 and Age <= 50:
+        Bill = 0
+        print("You are eligible for free tickets.")
     else:
         Bill = 10 #price re-assigning - run 1
         print("Adult tickets $10.")
@@ -23,3 +26,6 @@ if Height >= 120:
     print(f"your final bill is {Bill}")
 else:
     print("Sorry you are not eligible for the ride.")
+
+#Adding logical operators case: For age between 45-50 - free tickets
+
