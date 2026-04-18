@@ -4,4 +4,5 @@ H = input("please enter your height in meters")
 weight = int(W)
 hieght = float(H)
 BMI = weight/hieght**2
-print(BMI)
+print(round(BMI,2))
+      
