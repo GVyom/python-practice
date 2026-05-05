@@ -11,7 +11,7 @@ print('''                ___________
                        .-------------.
                       /_______________\
 ''')
-player = {}
+player = {} #empty dict
 game = True
 
 while game == True:
